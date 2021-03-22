@@ -4,7 +4,7 @@ Remote monitoring using Ngrok, Pipedream and Discord
 
 Add your Ngrok token and Pipedream-Discord webhook
 
-```
+```shell
 # Required Auth token and Webhook
 NGROK_AUTH_TOKEN="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 DISCORD_WEBHOOK="https://xxxxxxxxxxxxxxx.m.pipedream.net"
@@ -12,7 +12,7 @@ DISCORD_WEBHOOK="https://xxxxxxxxxxxxxxx.m.pipedream.net"
 
 Add your local servers you want to monitor remotely
 
-```
+```shell
 # Ngrok config file
 cat <<-YAML > /tmp/ngrok.yml
 authtoken: $NGROK_AUTH_TOKEN
